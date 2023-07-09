@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.button {
+  @include flex-center;
+  @include transition(background-color);
+  background-color: $color-button;
+  color: $color-secondary;
+  border: none;
+  padding: $spacing-small $spacing-medium;
+  border-radius: $spacing-small;
+  font-size: $font-size-small;
+  cursor: pointer;
+  transition: background-color $transition-fast ease;
+
+  &:hover {
+    background-color: $color-button-hover;
+ }
+}
