@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "lint:css": "stylelint src/**/*.scss",
     "format": "prettier --write src/**/*.{ts,tsx}",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +50,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.2",
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
     "jest": "^27.5.1",
     "lerna": "^7.1.1",
