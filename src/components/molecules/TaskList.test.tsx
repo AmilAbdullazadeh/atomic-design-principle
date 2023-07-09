@@ -8,7 +8,7 @@ afterEach(() => {
 });
 
 describe('TaskList', () => {
-    it('fetches and displays tasks from an API', async () => {
+    it('fetches and  renders the tasks from an API', async () => {
         render(<TaskList />);
 
         // simulating a server response
